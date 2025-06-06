@@ -10,5 +10,6 @@ public class HelloServlet extends HttpServlet {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
         out.println("<h1>Hello from a simple servlet!</h1>");
+         out.println("<h1>Github Webhook!</h1>");
     }
 }
